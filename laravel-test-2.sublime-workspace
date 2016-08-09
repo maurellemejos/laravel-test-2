@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"ge",
+				"generatedNo"
+			],
+			[
+				"_",
+				"_generate"
+			],
+			[
+				"error",
+				"errorMessage"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
 				"file",
 				"filename"
 			],
@@ -206,10 +226,6 @@
 			[
 				"sele",
 				"select"
-			],
-			[
-				"res",
-				"request"
 			],
 			[
 				"end",
@@ -416,14 +432,6 @@
 				"wordCountProperty"
 			],
 			[
-				"_",
-				"_options"
-			],
-			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"topic",
 				"topicLength"
 			],
@@ -506,24 +514,24 @@
 			[
 				"glob",
 				"globalInstructions"
-			],
-			[
-				"par",
-				"parsedInt"
-			],
-			[
-				"glboa",
-				"global_instructions"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "app/Http/routes.php",
+			"file": "gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 454,
+				"buffer_size": 1305,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/maurellemejos/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 423,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,42 +539,16 @@
 			"file": "public/js/components/app.js",
 			"settings":
 			{
-				"buffer_size": 3617,
+				"buffer_size": 3394,
 				"line_ending": "Unix",
 				"name": "app.js"
 			}
 		},
 		{
-			"file": "webpack.config.js",
+			"file": "app/Http/Controllers/LotteryNumberController.php",
 			"settings":
 			{
-				"buffer_size": 534,
-				"line_ending": "Unix",
-				"name": "webpack.config.js"
-			}
-		},
-		{
-			"file": "gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 1307,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": ".babelrc",
-			"settings":
-			{
-				"buffer_size": 55,
-				"line_ending": "Unix",
-				"name": ".babelrc"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 674,
+				"buffer_size": 2185,
 				"line_ending": "Unix"
 			}
 		}
@@ -626,15 +608,23 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/maurellemejos/Projects/Sites/laravel-test-2",
-		"/Users/maurellemejos/Projects/Sites/laravel-test-2/public",
-		"/Users/maurellemejos/Projects/Sites/laravel-test-2/public/build",
-		"/Users/maurellemejos/Projects/Sites/laravel-test-2/public/build/fonts",
-		"/Users/maurellemejos/Projects/Sites/laravel-test-2/public/js/components",
-		"/Users/maurellemejos/Projects/Sites/laravel-test-2/resources/views"
+		"/Users/maurellemejos/Projects/Sites/laravel-test-2"
 	],
 	"file_history":
 	[
+		"/Users/maurellemejos/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/maurellemejos/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/maurellemejos/npm-debug.log",
+		"/Users/maurellemejos/Projects/Sites/laravel-test-2/package.json",
+		"/Users/maurellemejos/Projects/Sites/laravel-test-2/app/Http/routes.php",
+		"/Users/maurellemejos/Projects/Sites/laravel-test-2/app/LotteryNumber.php",
+		"/Users/maurellemejos/Projects/Sites/laravel-test-2/database/migrations/2016_08_08_123434_create_lottery_numbers_table.php",
+		"/Users/maurellemejos/Projects/Sites/laravel-test-2/.babelrc",
+		"/Users/maurellemejos/Projects/Sites/laravel-test-2/resources/assets/css/styles.css",
+		"/Users/maurellemejos/Projects/Sites/laravel-test-2/gulpfile.js",
+		"/Users/maurellemejos/Projects/Sites/laravel-test-2/webpack.config.js",
+		"/Users/maurellemejos/Projects/Sites/laravel-test-2/.env",
+		"/Users/maurellemejos/Projects/Sites/laravel-test-2/resources/assets/styles.css",
 		"/Users/maurellemejos/Projects/Sites/laravel-test-2/resources/views/default.blade.php",
 		"/Users/maurellemejos/Projects/Sites/laravel-test/public/js/app.js",
 		"/Users/maurellemejos/Projects/Sites/laravel-test/gulpfile.js",
@@ -743,30 +733,17 @@
 		"/Users/maurellemejos/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/maurellemejos/Library/Application Support/Sublime Text 3/Packages/Schemr/Default (OSX).sublime-keymap",
 		"/Users/maurellemejos/Library/Application Support/Sublime Text 3/Packages/Schemr/SchemrFavorites.sublime-settings",
-		"/Users/maurellemejos/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/maurellemejos/Library/Application Support/Sublime Text 3/Packages/Themr/Default (OSX).sublime-keymap",
 		"/Users/maurellemejos/Projects/Sites/authorlogin.com/resources/views/react_router/admin.blade.php",
 		"/Users/maurellemejos/Projects/Sites/authorlogin.com/resources/views/react_router/public.blade.php",
 		"/Users/maurellemejos/Projects/Sites/authorlogin.com/resources/views/react_router/writer.blade.php",
 		"/Users/maurellemejos/Projects/Sites/authorlogin.com/resources/views/default.blade.php",
 		"/Users/maurellemejos/Projects/Sites/authorlogin.com/resources/views/assignment/index.blade.php",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/resources/views/plain.blade.php",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/app/Article.php",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/storage/logs/laravel-2016-06-23.log",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/package.json",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/database/migrations/2016_06_23_045449_add_is_paused_to_articles.php",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/database/migrations/2016_06_23_045139_add_is_paused_to_orders.php",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/storage/logs/laravel-2016-06-18.log",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/webpack.production.config.js",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/webpack.writer.config.js",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/webpack.public.config.js",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/webpack.home.config.js",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/database/migrations/2015_11_23_123309_create_orders_table.php",
-		"/Users/maurellemejos/Projects/Sites/authorlogin.com/node_modules/react-router/es6/Router.js"
+		"/Users/maurellemejos/Projects/Sites/authorlogin.com/resources/views/plain.blade.php"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -782,6 +759,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"before",
+			"s.",
 			"prompt",
 			"var",
 			"this",
@@ -907,8 +886,6 @@
 			"profile",
 			"console",
 			"select",
-			"user",
-			"articles",
 			"user"
 		],
 		"highlight": true,
@@ -932,24 +909,55 @@
 			[
 				{
 					"buffer": 0,
-					"file": "app/Http/routes.php",
+					"file": "gulpfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 454,
+						"buffer_size": 1305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								389,
-								389
+								543,
+								543
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/Seti_UI/icons/Langs/Gulpfile JS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/maurellemejos/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -959,20 +967,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "public/js/components/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3617,
+						"buffer_size": 3394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3617,
-								3617
+								3155,
+								3157
 							]
 						],
 						"settings":
@@ -980,36 +988,7 @@
 							"auto_name": "app.js",
 							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "webpack.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 534,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								258,
-								258
-							]
-						],
-						"settings":
-						{
-							"auto_name": "webpack.config.js",
-							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
-						},
-						"translation.x": 0.0,
+						"translation.x": 249.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1018,89 +997,30 @@
 				},
 				{
 					"buffer": 3,
-					"file": "gulpfile.js",
+					"file": "app/Http/Controllers/LotteryNumberController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1307,
+						"buffer_size": 2185,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1307,
-								1307
+								115,
+								115
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Seti_UI/icons/Langs/Gulpfile JS.tmLanguage"
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 403.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": ".babelrc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 55,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								55,
-								55
-							]
-						],
-						"settings":
-						{
-							"auto_name": ".babelrc",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 674,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								313,
-								313
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Seti_UI/icons/Langs/npm JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
 					"type": "text"
 				}
 			]

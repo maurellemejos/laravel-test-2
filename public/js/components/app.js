@@ -70,21 +70,29 @@ class App extends React.Component {
 
 		this.setState({error: false, message: 'Please wait...'});
 		
+		const data = {first, second, third};
+
 		// Request
 		$.ajax({
 			url: '/lottery_numbers',
 			type: 'POST',
-			data: {first, second, third},
+			data: data,
 			success: function(response) {
 				if (response.success) {
 					this.setState({error: false, message: 'Success!', first: '', second: '', third: ''});
 				} else {
-					let date = moment.utc(response.date_selected).local().format('MMM DD, YYYY hh:mm A');
-					this.setState({error: true, message: `${response.message} Last Selected On: ${date}`});
+					if (response.error_code == 2) {
+						this.setState({error: true, message: response.message});
+					} else if (response.error_code == 3) {
+						let date = moment.utc(response.date_selected).local().format('MMM DD, YYYY hh:mm A');
+						this.setState({error: true, message: `${response.message} Last Selected On: ${date}`});
+					}
+					
 				}
 			}.bind(this),
-			error: function(xhr, status, err) {
-				alert(xhr.status + ' ' + err.toString());
+			error: function(data) {
+				const errors = data.responseJSON;
+        		console.log(errors);
 			}.bind(this)
 		});
 	}
