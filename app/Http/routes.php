@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::post('/lottery_numbers', 'LotteryNumberController@saveNumbers');
+
+// for the sake of editing
